@@ -34,15 +34,19 @@ body {
   letter-spacing: 2px; 
   text-transform: uppercase;
 }
+
 .menu a {
-    color: white;
-    text-decoration: none;
-    margin: 0 12px;
-    font-weight: bold;
+  color: white; 
+  text-decoration:none;
+  padding: 10px; 
+  margin: 0;
+  font-weight:bold;
 }
+
 .menu a:hover {
-    color: #0a5244;
+  color: #ffffff; 
 }
+
 .btn-login {
     background-color: #1abc9c;
     border: none;
