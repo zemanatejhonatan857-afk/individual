@@ -19,6 +19,7 @@ body {
 .logo img {
     height: 60px;
     width: auto;
+    border-radius: 28px;
 }
 .menu a {
     color: white;
