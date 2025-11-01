@@ -16,10 +16,23 @@ body {
     padding: 15 px 30px;
     color: white;
 }
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* espacio entre logo y texto */
+}
 .logo img {
     height: 60px;
     width: auto;
     border-radius: 28px;
+}
+.logo .brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: white; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 2px; 
+  text-transform: uppercase;
 }
 .menu a {
     color: white;
@@ -28,7 +41,7 @@ body {
     font-weight: bold;
 }
 .menu a:hover {
-    color: #1abc9c;
+    color: #0a5244;
 }
 .btn-login {
     background-color: #1abc9c;
