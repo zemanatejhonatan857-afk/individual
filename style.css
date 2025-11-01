@@ -1,1 +1,43 @@
-body { font-family: Arial; }
+contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  background-color: white;
+  padding: 40px;
+  margin: 40px auto;
+  max-width: 1000px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  background-color: #ecf0f1;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s;
+  width: 90%;
+  max-width: 900px;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card img {
+  width: 45%;
+  height: auto;
+}
+
+.card .texto {
+  padding: 20px;
+  flex: 1;
+}
+
+.card .texto h2 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
